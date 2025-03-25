@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-right: 70px;
+}
+section header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section img{
+    width: 30px;
+}
+.google{
+    width: 300px;
+}
+.sr{
+    width: 25px;
+    margin-top: 4px;
+    margin-left: 20px;
+}
+.mic{
+    width: 38px;
+    margin-left: 590px;
+    margin-top: -5px;
+}
+section header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+}
+section header ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+section .main{
+    width:580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+section .main .searchbox{
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+}
+section .main .sharce{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    margin-left: -50px;
+}
+section .icon{
+    position: absolute;
+    top: 20px;
+    display: flex;
+    margin-left: -50px;
+    pointer-events: none;
+}
+section .buttons{
+    margin-top: 20px;
+    margin-left: 130px;
+}
+section .buttons :active{
+    background: #a67be6;
+}
+section .main .buttons button{
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: #555;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px solid transparent;
+    outline: none;
+}
+section .lang{
+    margin-left: 190px;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #697180;
+}
+.footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(64, 113, 159);
+}
+.footer .row ul{
+    display: flex;
+}
+.footer .row ul li{
+    list-style: none;
+}
+.footer .row ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 25px;
+}
